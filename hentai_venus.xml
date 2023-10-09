@@ -4,6 +4,7 @@
     <!-- Remotes -->
     <remote name="hos-lahaina" revision="Ursamoon" fetch="https://github.com/hentaiOS-lahaina/" />
     <remote name="statix" revision="tm-qpr3" fetch="https://github.com/StatiXOS/" />
+    <remote name="staging" revision="udc" fetch="https://github.com/stx-staging/" />
     <remote name="stx-gitlab" revision="tm" fetch="https://gitlab.com/StatiXOS/" />
     <remote name="venus-dev" revision="udc" fetch="https://github.com/AOSP-for-venus/" />
 
