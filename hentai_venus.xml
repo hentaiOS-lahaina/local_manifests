@@ -8,6 +8,11 @@
     <remote name="stx-gitlab" revision="tm" fetch="https://gitlab.com/StatiXOS/" />
     <remote name="venus-dev" revision="udc" fetch="https://github.com/AOSP-for-venus/" />
 
+    <!-- ものを削除 -->
+    <remove-project name="platform_vendor_hentai" />
+    <remove-project name="platform/build/soong" />
+    <remove-project name="platform/hardware/libhardware" />
+
     <!-- Device trees -->
     <project path="device/xiaomi/venus" name="platform_device_xiaomi_venus" remote="hos-lahaina" />
     <project path="device/xiaomi/sm8350-common" name="platform_device_xiaomi_sm8350-common" remote="hos-lahaina" />
@@ -30,5 +35,13 @@
 
     <!-- Shim libraries -->
     <project path="hardware/statix/compat" name="android_hardware_statix_compat" remote="statix" />
+
+    <!-- Yes -->
+    <project path="build/soong" name="platform_build_soong" remote="hos-lahaina" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="staging" />
+    <project path="vendor/hentai" name="platform_vendor_hentai" remote="hos-lahaina" />
 
 </manifest>
