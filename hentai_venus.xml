@@ -2,10 +2,10 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="hos-lahaina" revision="TwistedScarlett" fetch="https://github.com/hentaiOS-lahaina/" />
+    <remote name="hos-lahaina" revision="Ursamoon" fetch="https://github.com/hentaiOS-lahaina/" />
     <remote name="statix" revision="tm-qpr3" fetch="https://github.com/StatiXOS/" />
     <remote name="stx-gitlab" revision="tm" fetch="https://gitlab.com/StatiXOS/" />
-    <remote name="venus-dev" revision="tm" fetch="https://github.com/AOSP-for-venus/" />
+    <remote name="venus-dev" revision="udc" fetch="https://github.com/AOSP-for-venus/" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/venus" name="platform_device_xiaomi_venus" remote="hos-lahaina" />
