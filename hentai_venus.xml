@@ -42,8 +42,8 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="staging" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="staging" />
+    <project path="external/tinycompress" name="platform_external_tinycompress" remote="hos-lahaina" />
+    <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="hos-lahaina" />
     <project path="vendor/hentai" name="platform_vendor_hentai" remote="hos-lahaina" />
 
 </manifest>
