@@ -3,9 +3,8 @@
 
     <!-- Remotes -->
     <remote name="hos-lahaina" revision="Ursamoon" fetch="https://github.com/hentaiOS-lahaina/" />
-    <remote name="statix" revision="tm-qpr3" fetch="https://github.com/StatiXOS/" />
-    <remote name="staging" revision="udc" fetch="https://github.com/stx-staging/" />
-    <remote name="stx-gitlab" revision="tm" fetch="https://gitlab.com/StatiXOS/" />
+    <remote name="statix" revision="udc" fetch="https://github.com/StatiXOS/" />
+    <remote name="stx-gitlab" revision="udc" fetch="https://gitlab.com/StatiXOS/" />
     <remote name="venus-dev" revision="udc" fetch="https://github.com/AOSP-for-venus/" />
 
     <!-- ものを削除 -->
@@ -25,14 +24,14 @@
     <project path="vendor/gcam" name="android_vendor_gcam" remote="stx-gitlab" />
 
     <!-- Hardware -->
-    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="tm" />
+    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="udc" />
     <!-- Prebuilt kernel -->
     <project path="device/xiaomi/venus-kernel" name="platform_device_xiaomi_venus-kernel" remote="venus-dev" />
 
     <!-- Proprietary files -->
     <project path="vendor/xiaomi/venus" name="proprietary_vendor_xiaomi_venus" remote="venus-dev" />
     <project path="vendor/xiaomi/sm8350-common" name="proprietary_vendor_xiaomi_sm8350-common" remote="venus-dev" />
-    <project path="vendor/xiaomi/venus-firmware" name="firmware/venus" remote="stx-gitlab" revision="tm" />   
+    <project path="vendor/xiaomi/venus-firmware" name="firmware/venus" remote="stx-gitlab" revision="udc" />   
 
     <!-- Shim libraries -->
     <project path="hardware/statix/compat" name="android_hardware_statix_compat" remote="statix" />
